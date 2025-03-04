@@ -1,0 +1,431 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navhead {
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px black;
+}
+
+.an-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.an-list>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 35px;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+}
+
+.my-navbar {
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.nav-theme i {
+    font-size: 18px;
+}
+
+.nav-theme {
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    height: 87px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding-left: 35px !important;
+}
+
+.nav-list {
+    padding-left: 250px;
+}
+
+.nav-1:hover {
+    -webkit-animation-name: jackInTheBox;
+    animation-name: jackInTheBox
+}
+
+
+.section-1 {
+    box-sizing: border-box;
+    padding: 20px;
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1; */
+}
+
+
+.card-1 {
+    background-color: #30a7d7;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.card {
+    transition: tranform 0.1 ease-in-out;
+}
+
+.card:hover {
+    transition: tranform 0.1 ease-in-out;
+    transform: scale(1.01);
+}
+
+.card-1-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.card-1 h5 {
+    color: black;
+    padding: 20px;
+}
+
+.card-1 p {
+    color: white;
+    padding: 20px;
+}
+
+.row {
+    background-color: white;
+}
+
+.card-2 {
+    background-color: #ee6b2f;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-2-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.card-2-image h5 {
+    padding: 10px;
+}
+
+.card-3 {
+    color: white;
+    background-color: #313131;
+    margin-top: 10px;
+}
+
+.card-3-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-3-image h5 {
+    padding: 20px;
+}
+
+.card-4 {
+    background-color: #a4a4a4;
+    color: black;
+    margin-top: 10px;
+}
+
+.card-4-image img {
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-4-image h5 {
+    padding: 20px;
+}
+
+.card-5 {
+    background-color: #e6bc2f;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-5-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-5-image h5 {
+    padding: 20px;
+}
+
+.card-6 {
+    background-color: #1b53ba;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-6-image {
+    display: flex;
+}
+
+.card-6-image img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-6-image h5 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.imgcontainter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: #6b6a6a;
+
+}
+.img-box img{
+    width: 200px;
+}
+.img-box{
+    background-color: white;
+    border: 2px solid black;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3ms ease-in-out;
+}
+.img-box:hover{
+    transition: transform 0.3ms ease-in-out;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-2{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');   
+}
+.my-container{
+    justify-content: center;
+}
+.card-7{
+    background-color: #e6bc2f;
+    margin: 10px;
+}
+.card-7 h5{
+    color: white;
+    padding: 5px !important;
+}
+.card-7 p{
+    color: black;
+    padding: 5px;
+}
+.card-8{
+    background-color: #e3350d;
+    color: white;
+    margin: 10px;
+}
+.card-8 h5,p{
+padding: 5px;
+}
+.card-8para{
+    text-align: left;
+    font-size: 30px;
+    margin: 20px;
+}
+.card-9{
+    background-color: #4dad5b;
+    color: white;
+    margin-top: 10px;
+}
+.card-9 h5,p{
+    padding: 10px;
+}
+.card10{
+    background-color: #1b53ba;
+    color: white;
+    margin-top: 10px;
+}
+.card10 h5,p{
+padding: 10px;
+}
+.card11{
+    background-color: #c7aa79;
+    color: white;
+}
+.card11 h5,p{
+    padding: 10px; 
+}
+.card12{
+background-color: #313131;
+color: white;
+margin-top: 10px;
+}
+.card12 h5,p{
+    padding: 10px;
+}
+.card13{
+    margin: 10px;
+    border-radius: 5px;
+}
+.theme1{
+    background-color: #ee6b2f;
+    padding: 10px;
+}
+.theme2{
+    background-color: #30a7d7;
+    padding: 5px;
+    border-bottom-right-radius: 35px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0;
+    margin-top: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .footer-logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .footer-social h5 {
+    color: #f1c40f;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons li a {
+    color: #ecf0f1;
+    font-size: 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons li a:hover {
+    color: #f1c40f;
+    transform: translateY(-5px);
+  }
+  
+  .footer-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h5 {
+    color: #f1c40f;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #e67e22;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom i {
+    color: #e74c3c;
+  }
+.animate__animated:hover{
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+@media (max-width: 768px) {
+    .navhead {
+        display: none;
+    }
+}
